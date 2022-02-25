@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "name": "automation",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "pree2e": "webdriver-manager update",
+    "e2e": "protractor protractor.conf.js",
+    "preconcurrence": "webdriver-manager update",
+    "concurrence": "protractor concurrence/protractor.conf.js"
+  },
+  "dependencies": {
+    "@angular/compiler": "^7.2.7",
+    "@angular/core": "^7.2.7",
+    "@types/jasmine": "^3.3.9",
+    "@types/jasminewd2": "^2.0.6",
+    "debug": "^4.1.1",
+    "downloads-folder": "^1.0.1",
+    "moment": "^2.24.0",
+    "pg": "^7.8.0",
+    "protractor-http-client": "^1.0.4",
+    "rxjs": "~6.4.0",
+    "udebug": "^1.1.0",
+    "update": "^0.7.4",
+    "webdriver-manager": "^12.1.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/chai-as-promised": "^7.1.0",
+    "@types/cucumber": "^4.0.5",
+    "@types/node": "^11.9.5",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "codelyzer": "^4.5.0",
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^4.0.5",
+    "protractor": "~5.4.2",
+    "protractor-cucumber-framework": "^6.1.1",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.20.0",
+    "typescript": "^3.3.3333",
+    "node-gyp": "^8.1.0"
+  },
+  "main": "protractor.conf.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
